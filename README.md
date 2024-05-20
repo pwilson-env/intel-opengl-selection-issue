@@ -10,7 +10,7 @@ Just start the app to run it.  A series of concentric circles are drawn in red o
 Use the mouse to click a circle.  If the app is behaving as designed, that circle will display in green.  Click anywhere not on a circle
 to deselect it.
 
-![Running the app](Media/selection_issue_app.png)
+![Running the app](IntelOpenGLSelectionIssue/Media/selection_issue_app.png)
 
 # Testing
 Our development laptops have 2 graphics cards:
@@ -23,7 +23,7 @@ We are running Windows 10.
 
 Use the Windows 10 Graphics settings to force this test app to use the **Power saving (Intel UHD Graphics)** card, then start the app.
 
-![Choose Graphics Settings](Media/choose_graphics_settings.png)
+![Choose Graphics Settings](IntelOpenGLSelectionIssue/Media/choose_graphics_settings.png)
 
 In our environment, no matter which circle is clicked on it always chooses the last circle.
 
